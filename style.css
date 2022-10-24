@@ -1,0 +1,167 @@
+.container{
+
+
+}
+/* 
+.container .header .content .info .quote .action .footer{
+    display: flex;
+    flex-basis:0;
+    flex-grow:1;
+    height:200px;
+    } */
+
+ul {
+    display:flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    gap: 16px;
+    }
+h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header{
+    background: #1F2937;
+    display:flex;
+    justify-content: center;
+    color:white;
+    height:80px;
+    gap:700px;
+    }
+
+.content{
+    background: #1F2937;
+    color:white;
+    height:220px; 
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+    }
+    
+img{
+    height:auto;
+    max-width: 200px;
+}
+.info{
+    height:240px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+.information{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+}
+.cookieone{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+.review{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    background:#E5E7EB;
+    color:#1F2937;
+    height:100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+}
+
+.customer{
+    font-weight: 900;
+    font-size: small;
+    font-style: normal;
+    text-align: right;
+    
+}
+button{
+        background: #3882f6;
+        color:white; 
+        border: none;
+        margin-top:10px;
+        border-radius: 8px;
+        padding: 8px 16px;
+        width:110px;
+        }
+
+body{
+        margin: 0px;
+        }
+
+
+.action{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+        display: flex;
+        background: #1F2937;
+        color:white; 
+        justify-content:center;
+        align-items: center;
+        height:70px;
+        }
+
+.logo{
+    display: flex;
+    flex-shrink: 0;
+}
+/* .middle{
+   background: white;
+   display: flex;
+   justify-content: center;
+       }       
+.bottom{
+    background: #E5E7EB;
+        }
+
+
+text{
+    margin:10px
+    }
+
+.card {
+    padding: 16px;
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display:flex;
+    justify-content: space-between;
+    }
+
+
+
+img{
+    width :50%;
+    height:auto;
+    }
+
+
+
+.box{
+    background: white;
+    display: flex;
+    max-width: 5000px;
+    } */
